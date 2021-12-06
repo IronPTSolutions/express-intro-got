@@ -1,0 +1,13 @@
+<div class="d-flex flex-wrap">
+	{{#each episodes as |episode|}}
+		<div class="card mb-2 me-2" style="width: 18rem;">
+			<img src="{{episode.image}}" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">{{episode.name}}</h5>
+				<p class="card-text">S{{episode.summary}}E{{episode.number}}</p>
+				<p class="card-text">{{episode.summary}}</p>
+				<a href="/episodes/{{episode.id}}" class="btn btn-primary">View more</a>
+			</div>
+		</div>
+	{{/each}}
+</div>

@@ -1,0 +1,26 @@
+{
+  "name": "express-intro-got",
+  "version": "1.0.0",
+  "description": "1. Crear el proyecto:",
+  "main": "data.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gborgar/express-intro-got.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gborgar/express-intro-got/issues"
+  },
+  "homepage": "https://github.com/gborgar/express-intro-got#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {}
+}
