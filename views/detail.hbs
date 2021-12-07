@@ -1,0 +1,9 @@
+<div id="detail">
+    {{#each episodes.id as |episode.id|}}
+            <a href="/episodes/{{episode.id}}">
+                <div>
+                    <p>{{episode.name}}</p>
+                </div>
+            </a>
+    {{/each}}
+</div>
